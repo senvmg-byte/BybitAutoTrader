@@ -1,0 +1,17 @@
+{
+  "name": "bybit-auto-trader-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ccxt": "4.5.87",
+    "dotenv": "^16.4.7"
+  }
+}
